@@ -4,7 +4,9 @@ For this assignment you will use an `ArrayList` to create an address book.
 
 ## Specifications
 
-Download the three starter classes from Github and fill in the missing methods, as well as the `Runner`. The `Runner` should ask for input so that Contacts can be created and then added, accessed, and removed. Optionally, you can also add a method to edit a `Contact`.
+Download the three starter classes from Github and fill in the missing methods, as well as the `Main`. The `Main` should ask for input so that `Contact`s can be created and then added, accessed, and removed. Optionally, you can also add a method to edit a `Contact`.
+
+Note: [here is an example of a constructor that uses the `this` keyword](https://github.com/PioneerAPCS-21-22/PixLab/blob/master/classes/Pixel.java).
 
 ## Sample Outputs
 
