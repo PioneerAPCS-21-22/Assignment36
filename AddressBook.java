@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class AddressBook
 {
-    List<Contact> book;
+    private List<Contact> book;
     
     /**
      * Constructs AddressBook object (initializes List as an ArrayList)
