@@ -12,12 +12,15 @@ public class Contact
     /**
      * 
      * @param first
+     * @param last
      * 
-     * Constructs a Contact object with a first name and sets all other fields to blank.
+     * Constructs a Contact object with a first and last name and sets all other fields to blank.
      */
-    public Contact(String first)
+    public Contact(String first, String last)
     {
-        
+        this.first = first;
+        this.last = last;
+        this.work = "";  // don't have to use this b/c no local var called work 
     }
     
     /**
@@ -60,7 +63,8 @@ public class Contact
      */
     public boolean equals(Contact c)
     {
-        
+        String lastName1 = this.getLastName();  // last name of the obj calling method
+        String lastName2 = c.getLastName();  // last name of c
     }
     
     @Override
